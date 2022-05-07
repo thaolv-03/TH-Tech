@@ -44,6 +44,22 @@ const product = [
     { id: 43, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
     { id: 44, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
     { id: 45, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 46, image: "./assets/img/product10.webp", productname: "Điện thoại Xiaomi Redmi 10C (4GB/128GB) (Blue)", productprice: "3.690.000 ₫", productcost: "4.490.000 ₫", productdiscount: "-17.82%" },
+    { id: 47, image: "./assets/img/product11.webp", productname: "Laptop ASUS TUF Gaming FX506HC-HN144W 90NR0724-M00FJ0 ( 15.6' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2.3kg)", productprice: "20.990.000 ₫", productcost: "23.990.000 ₫", productdiscount: "-12.51%" },
+    { id: 48, image: "./assets/img/product12.webp", productname: "Thiết bị định tuyến mạng không dây Asus Wifi 6 GT-AX6000", productprice: "12.449.000 ₫", productcost: "13.790.000 ₫", productdiscount: "-9.72%" },
+    { id: 49, image: "./assets/img/product13.webp", productname: "Điện Thoại Di Động iPhone 13 Pro Max 256GB Alpine Green (MND03VN/A) (Alpine Green)", productprice: "33.990.000 ₫", productcost: "37.990.000 ₫", productdiscount: "-10.53%" },
+    { id: 50, image: "./assets/img/product14.webp", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "10.990.000 ₫", productdiscount: "-2.92%" },
+    { id: 51, image: "./assets/img/product15.webp", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
+    { id: 52, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 53, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 54, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 55, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 56, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 57, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 58, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 59, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 60, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+
 ]
 
 let perPage = 15;
