@@ -1,6 +1,7 @@
 .page {
     position: relative;
     height: 3700px;
+    width: 100%;
 }
 
 .header {
@@ -274,9 +275,11 @@ input {
 /* ---------------- Menu Styling ---------------- */
 
 .content {
-    width: 100%;
-    position: absolute;
-    top: 110px;
+    width: 1250px;
+    /* position: absolute;
+    top: 110px; */
+    margin: 0 auto;
+    margin-top: -475px;
 }
 
 .content-menu-build {
