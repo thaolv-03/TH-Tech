@@ -281,8 +281,9 @@ input {
 }
 
 .content {
-    width: 1250px;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 3300px;
 }
 
 .content-menu-build {
