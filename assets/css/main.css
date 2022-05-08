@@ -1021,7 +1021,7 @@ ul {
 }
 
 .product-paging {
-    width: 500px;
+    width: 700px;
     height: 50px;
     margin: 0 auto;
     margin-top: 30px;
@@ -1031,7 +1031,7 @@ ul {
 }
 
 .ul-paging {
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1055,8 +1055,17 @@ ul {
     opacity: 0.9;
 }
 
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+    color: black;
+}
+
 .btn-active {
-    opacity: 0.6;
+    opacity: 0.4;
+}
+
+.btn-active:hover {
+    opacity: 0.4;
 }
 
 .number-page {
@@ -1080,7 +1089,7 @@ ul {
 }
 
 .number-page li:hover {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .number-page li.active {

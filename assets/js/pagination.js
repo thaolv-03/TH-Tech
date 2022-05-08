@@ -59,6 +59,66 @@ const product = [
     { id: 58, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
     { id: 59, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
     { id: 60, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 61, image: "./assets/img/product11.webp", productname: "Laptop ASUS TUF Gaming FX506HC-HN144W 90NR0724-M00FJ0 ( 15.6' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2.3kg)", productprice: "20.990.000 ₫", productcost: "23.990.000 ₫", productdiscount: "-12.51%" },
+    { id: 62, image: "./assets/img/product12.webp", productname: "Thiết bị định tuyến mạng không dây Asus Wifi 6 GT-AX6000", productprice: "12.449.000 ₫", productcost: "13.790.000 ₫", productdiscount: "-9.72%" },
+    { id: 63, image: "./assets/img/product13.webp", productname: "Điện Thoại Di Động iPhone 13 Pro Max 256GB Alpine Green (MND03VN/A) (Alpine Green)", productprice: "33.990.000 ₫", productcost: "37.990.000 ₫", productdiscount: "-10.53%" },
+    { id: 64, image: "./assets/img/product14.webp", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "10.990.000 ₫", productdiscount: "-2.92%" },
+    { id: 65, image: "./assets/img/product15.webp", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
+    { id: 66, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 67, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 68, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 69, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 70, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 71, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 72, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 73, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 74, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 75, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 76, image: "./assets/img/product10.webp", productname: "Điện thoại Xiaomi Redmi 10C (4GB/128GB) (Blue)", productprice: "3.690.000 ₫", productcost: "4.490.000 ₫", productdiscount: "-17.82%" },
+    { id: 77, image: "./assets/img/product11.webp", productname: "Laptop ASUS TUF Gaming FX506HC-HN144W 90NR0724-M00FJ0 ( 15.6' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2.3kg)", productprice: "20.990.000 ₫", productcost: "23.990.000 ₫", productdiscount: "-12.51%" },
+    { id: 78, image: "./assets/img/product12.webp", productname: "Thiết bị định tuyến mạng không dây Asus Wifi 6 GT-AX6000", productprice: "12.449.000 ₫", productcost: "13.790.000 ₫", productdiscount: "-9.72%" },
+    { id: 79, image: "./assets/img/product13.webp", productname: "Điện Thoại Di Động iPhone 13 Pro Max 256GB Alpine Green (MND03VN/A) (Alpine Green)", productprice: "33.990.000 ₫", productcost: "37.990.000 ₫", productdiscount: "-10.53%" },
+    { id: 80, image: "./assets/img/product14.webp", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "10.990.000 ₫", productdiscount: "-2.92%" },
+    { id: 81, image: "./assets/img/product15.webp", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
+    { id: 82, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 83, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 84, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 85, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 86, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 87, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 88, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 89, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 90, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 91, image: "./assets/img/product11.webp", productname: "Laptop ASUS TUF Gaming FX506HC-HN144W 90NR0724-M00FJ0 ( 15.6' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2.3kg)", productprice: "20.990.000 ₫", productcost: "23.990.000 ₫", productdiscount: "-12.51%" },
+    { id: 92, image: "./assets/img/product12.webp", productname: "Thiết bị định tuyến mạng không dây Asus Wifi 6 GT-AX6000", productprice: "12.449.000 ₫", productcost: "13.790.000 ₫", productdiscount: "-9.72%" },
+    { id: 93, image: "./assets/img/product13.webp", productname: "Điện Thoại Di Động iPhone 13 Pro Max 256GB Alpine Green (MND03VN/A) (Alpine Green)", productprice: "33.990.000 ₫", productcost: "37.990.000 ₫", productdiscount: "-10.53%" },
+    { id: 94, image: "./assets/img/product14.webp", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "10.990.000 ₫", productdiscount: "-2.92%" },
+    { id: 95, image: "./assets/img/product15.webp", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
+    { id: 96, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 97, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 98, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 99, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 100, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 101, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 102, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 103, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 104, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 105, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 106, image: "./assets/img/product10.webp", productname: "Điện thoại Xiaomi Redmi 10C (4GB/128GB) (Blue)", productprice: "3.690.000 ₫", productcost: "4.490.000 ₫", productdiscount: "-17.82%" },
+    { id: 107, image: "./assets/img/product11.webp", productname: "Laptop ASUS TUF Gaming FX506HC-HN144W 90NR0724-M00FJ0 ( 15.6' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2.3kg)", productprice: "20.990.000 ₫", productcost: "23.990.000 ₫", productdiscount: "-12.51%" },
+    { id: 108, image: "./assets/img/product12.webp", productname: "Thiết bị định tuyến mạng không dây Asus Wifi 6 GT-AX6000", productprice: "12.449.000 ₫", productcost: "13.790.000 ₫", productdiscount: "-9.72%" },
+    { id: 109, image: "./assets/img/product13.webp", productname: "Điện Thoại Di Động iPhone 13 Pro Max 256GB Alpine Green (MND03VN/A) (Alpine Green)", productprice: "33.990.000 ₫", productcost: "37.990.000 ₫", productdiscount: "-10.53%" },
+    { id: 110, image: "./assets/img/product14.webp", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "10.990.000 ₫", productdiscount: "-2.92%" },
+    { id: 111, image: "./assets/img/product15.webp", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
+    { id: 112, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 113, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 114, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 115, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
+    { id: 116, image: "./assets/img/product20.webp", productname: "Mainboard ASUS PRIME Z690M-PLUS D4", productprice: "5.290.000 ₫", productcost: "5.590.000 ₫", productdiscount: "-5.37%" },
+    { id: 117, image: "./assets/img/product16.webp", productname: "Card màn hình GALAX Geforce GTX 1650 EX (1-Click OC) 4GB GDDR6 65SQL8DS66E6", productprice: "6.490.000 ₫", productcost: "6.890.000 ₫", productdiscount: "-5.81%" },
+    { id: 118, image: "./assets/img/product17.webp", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
+    { id: 119, image: "./assets/img/product18.webp", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
+    { id: 120, image: "./assets/img/product19.webp", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
 
 ]
 
@@ -119,12 +179,24 @@ function renderListPage() {
 
 function changePage() {
     const currentPages = document.querySelectorAll('.number-page li');
-    console.log(currentPage);
+    console.log(currentPages);
     for (let i=0 ; i < currentPages.length ; i++ ) {
         currentPages[i].addEventListener('click', ()=> {
             let value = i + 1;
             console.log(value);
             currentPage = value;
+            $('.number-page li').removeClass('active');
+            currentPages[i].classList.add('active');
+            if(currentPage > 1 && currentPage < totalPage) {
+                $('.btn-prev').removeClass('btn-active');
+                $('.btn-next').removeClass('btn-active');
+            }
+            if (currentPage === 1) {
+                $('.btn-prev').addClass('btn-active');
+            }
+            if (currentPage === totalPage) {
+                $('.btn-next').addClass('btn-active');
+            }
             getCurrentPage(currentPage);
             renderProduct();
         })
@@ -141,6 +213,8 @@ btnNext.addEventListener('click', ()=> {
         $('.btn-next').addClass('btn-active');
     }
     $('.btn-prev').removeClass('btn-active');
+    $('.number-page li').removeClass('active');
+    $(`.number-page li:eq(${currentPage-1})`).addClass('active');
     console.log(start, end);
     getCurrentPage(currentPage);
     
@@ -156,6 +230,8 @@ btnPrev.addEventListener('click', ()=> {
         $('.btn-prev').addClass('btn-active');
     }
     $('.btn-next').removeClass('btn-active');
+    $('.number-page li').removeClass('active');
+    $(`.number-page li:eq(${currentPage-1})`).addClass('active');
     console.log(start, end);
     getCurrentPage(currentPage);
     
