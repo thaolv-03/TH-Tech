@@ -272,17 +272,10 @@ input {
 }
 
 /* ---------------- Menu Styling ---------------- */
-
-.content-block {
+.content {
     width: 100%;
     position: absolute;
     top: 110px;
-    height: 3300px;
-}
-
-.content {
-    width: 100%;
-    /* margin: 0 auto; */
     height: 3300px;
 }
 
