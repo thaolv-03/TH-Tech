@@ -85,6 +85,15 @@
     padding: 0 15px;
 }
 
+.product-name a {
+    color: #223;
+    text-decoration: none;
+}
+
+.product-name a:hover {
+    color: #1435c3;
+}
+
 .product-price {
     height: 40px;
     position: absolute;
