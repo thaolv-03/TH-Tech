@@ -1,0 +1,22 @@
+.content-sale {
+    width: 1250px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.sales {
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+}
+
+.img-sale {
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.img-sale:hover {
+    transform: scale(1.02);
+}

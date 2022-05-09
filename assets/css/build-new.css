@@ -1,0 +1,21 @@
+.build-news {
+    width: 200px;
+    height: 465px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.build-news img {
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.build-news img:hover {
+    transform: scale(1.02);
+}
+
+.news {
+    margin-top: 20px;
+}

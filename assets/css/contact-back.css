@@ -1,0 +1,114 @@
+.btn-contact:hover {
+    transform: scale(1.2);
+}
+
+#btn-instagram {
+    position: fixed;
+    bottom: 390px;
+    right: 50px;
+    z-index: 99;
+    width: 43px;
+    height: 43px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    /* border: 1px solid #ccc; */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    /* opacity: 0.7; */
+    overflow: hidden;
+}
+#btn-fb {
+    position: fixed;
+    bottom: 330px;
+    right: 50px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    /* border: 1px solid #ccc; */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    /* opacity: 0.7; */
+
+}
+#btn-messenger {
+    position: fixed;
+    bottom: 270px;
+    right: 50px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    /* border: 1px solid #ccc; */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+#btn-phone {
+    position: fixed;
+    bottom: 210px;
+    right: 50px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+     
+.fa-arrow-up {
+    font-size: 20px;
+    color: #1435c3;
+}
+#myBtn:hover {
+    background-color: #f1f1f1;
+}
