@@ -129,7 +129,6 @@ function renderProduct() {
         html += '<div class="product-discount">'+ item.productdiscount +'</div>';
         html += '</div>';
         html += '</div>';
-        console.log(html);
         return html;
         }
     })
