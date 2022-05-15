@@ -27,8 +27,7 @@
   }
 
 body {
-    /* font-family: 'Exo', sans-serif;
-    font-weight: 500; */
+    
 }
 
 html {
@@ -43,7 +42,7 @@ html {
     height: 3700px;
 }
 
-.grid {
+/* .grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
@@ -56,4 +55,4 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-}
+} */
