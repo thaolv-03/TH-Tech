@@ -195,6 +195,6 @@
 }
 
 .number-page li.active {
-    background-color: #1435c3;
+    background-image: linear-gradient(to bottom, #00c6ff,#0072ff);
     color: #fff;
 }

@@ -43,7 +43,7 @@ input {
 }
 
 .header__search--btn {
-    background-color: #1435c3;
+    background-image: linear-gradient(to bottom, #00c6ff,#0072ff);
     color: white;
     margin: 0 auto;
     margin-left: -15px;

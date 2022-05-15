@@ -4,7 +4,11 @@ footer {
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
-    border-top: 2px solid #1435c3;
+    border-top: 2px solid transparent;
+    /* border-image: linear-gradient( to right, #00c6ff , #0072ff); */
+    /* border-color: -moz-linear-gradient(top, #00c6ff, #0072ff); */
+    border-image: linear-gradient(45deg, #00c6ff , #0072ff);
+    border-image-slice: 1;
 }
 
 .footer-block {
