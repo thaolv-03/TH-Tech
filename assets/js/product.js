@@ -16,7 +16,7 @@ const product = [
     { id: 14, image: "./assets/img/product14.webp", src: "#", productname: "PC HP ProDesk 400 G7 MT 60U83PA(Intel Core i3-10105/8GB/256GBSSD/Windows 11 Home SL 64-bit/WiFi 802.11ac)", productprice: "10.669.000 ₫", productcost: "", productdiscount: "-2.92%" },
     { id: 15, image: "./assets/img/product15.webp", src: "#", productname: "Laptop HP Victus 16-d0294TX 5Z9R5PA ( 16.1' Full HD/ 144Hz/Intel Core i5-11400H/8GB/512GB SSD/NVIDIA GeForce RTX 3050Ti/Windows 11 Home SL/2.4kg)", productprice: "24.990.000 ₫", productcost: "28.990.000 ₫", productdiscount: "-13.8%" },
     { id: 16, image: "./assets/img/product16.webp", src: "#", productname: "Laptop ASUS Vivobook Pro M7600QC-L2077W 90NB0V81-M001B0 ( 16 Ultra HD (4K)/AMD Ryzen 5 5600H/16GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/2kg)", productprice: "32.490.000 ₫", productcost: "32.990.000 ₫", productdiscount: "-1.52%" },
-    { id: 17, image: "./assets/img/product17.webp", src: "#", productname: "Điện thoại ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+) (Đen) (Black)", productprice: "16.990.000 ₫", productcost: "", productdiscount: "" } ,
+    { id: 17, image: "./assets/img/product17.webp", src: "#", productname: "Điện thoại ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+) (Đen) (Black)", productprice: "15.880.000 ₫", productcost: "16.990.000 ₫", productdiscount: "-6.53%" } ,
     { id: 18, image: "./assets/img/product18.webp", src: "#", productname: "Màn hình LCD PHILIPS 191S8LHSB2 (1366 x 768/TN/60Hz/5 ms)", productprice: "2.619.000 ₫", productcost: "", productdiscount: "" },
     { id: 19, image: "./assets/img/product19.webp", src: "#", productname: "Laptop ASUS ROG Flow Z13 GZ301ZC-LD110W ( 13.4' WUXGA/ 120Hz/Intel Core i7-12700H/16GB/512GB SSD/NVIDIA GeForce RTX 3050/Windows 11 Home/1.1kg)", productprice: "49.490.000 ₫", productcost: "49.990.000 ₫", productdiscount: "-1.00%" },
     { id: 20, image: "./assets/img/product20.webp", src: "#", productname: "Card màn hình ASUS Dual RTX 3050 OC 8GB 8GB GDDR6", productprice: "10.290.000 ₫", productcost: "13.319.000 ₫", productdiscount: "-22.74%" },
@@ -193,7 +193,7 @@ btnNext.addEventListener('click', ()=> {
 
 btnPrev.addEventListener('click', ()=> {
     currentPage--;
-    if (currentPage <= 1) {
+    if (currentPage <= 1) { 
         currentPage = 1;
     }
     if (currentPage === 1) {

@@ -20,6 +20,8 @@ footer {
 
 .ft-content {
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
 .ft-title {
@@ -55,6 +57,7 @@ ul li{
 
 .ft-content-pay {
     display: flex;
+    flex-direction: row;
     width: 320px;
     justify-content: space-between;
 }

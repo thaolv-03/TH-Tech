@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&family=Mochiy+Pop+One&family=Roboto:wght@300;500;900&display=swap');
+
 :root {
-    --main-color:#2545b8;
+    --main-color: #2545b8;
 }
 
 * {
@@ -13,22 +14,20 @@
     -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
     border-radius: 13px;
     background-color: rgb(252, 252, 252);
-  }
-  
-  ::-webkit-scrollbar {
-    width: 13px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
     background-color: rgb(255, 255, 255);
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     border: #2f2f2f;
     border-radius: 4px;
     background: linear-gradient(#00c6ff, #0072ff);
-  }
-
-body {
-    
 }
+
+body {}
 
 html {
     font-size: 62.5%;

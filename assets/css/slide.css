@@ -2,21 +2,22 @@
 
 .slide-block {
     width: 100%;
-    height: 586px;
+    height: 566px;
     position: relative;
     top: 88px;
+    background-color: silver;
 }
 
 .slides {
-    width: 1903px;
-    height: 586px;
+    width: 1912px;
+    height: 566px;
     margin: 0 auto;
 }
 
 .carousel-inner {
     width: 100%;
     margin: 0 auto;
-    height: 586px;
+    height: 566px;
     overflow: hidden;
     z-index: 0;
 }

@@ -17,7 +17,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     border-radius: 10px;
 }
 
@@ -25,7 +25,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     border-radius: 10px;
     margin-top: 40px;
 }
@@ -35,8 +35,11 @@
     height: 430px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title-all {
@@ -58,63 +61,54 @@
 
 .items {
     display: flex;
-}
-
-.item-left {
     flex: 1;
 }
 
-.item-left img {
-    transition: 0.2s;
-}
-
-.item-left img:hover {
-    transform: scale(1.012)
-}
-
-
-.item-right {
-    flex: 2;
-    display: flex;
-    justify-content: space-around;
-}
-
-.item-right__col {
+.item-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    /* border: 1px solid silver; */
     width: 100%;
 }
 
-.item-right__col--row {
+.item-col__row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    /* border: 1px solid silver; */
 }
 
 .item-row1 {
-    border-right: 1px solid silver;
-    border-bottom: 1px solid silver;
+    border-right: 1px solid rgb(231, 229, 229);
+    border-bottom: 1px solid rgb(231, 229, 229);
+    border-top: 1px solid rgb(231, 229, 229);
 }
 
 .item-row2 {
-    border-right: 1px solid silver;
+    border-right: 1px solid rgb(231, 229, 229);
 }
 
 .item-row3 {
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid rgb(231, 229, 229);
+    border-top: 1px solid rgb(231, 229, 229);
 }
 
-.item-right__col--row img {
+.item-row6 {
+    border-left: 1px solid rgb(231, 229, 229);
+}
+
+.item-row5 {
+    border-left: 1px solid rgb(231, 229, 229);
+    border-bottom: 1px solid rgb(231, 229, 229);
+    border-top: 1px solid rgb(231, 229, 229);
+}
+
+.item-col__row img {
     width: 100px;
     transition: 0.2s;
 }
 
-.item-right__col--row img:hover {
+.item-col__row img:hover {
     transform: scale(1.15);
 }
 
