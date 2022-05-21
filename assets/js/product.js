@@ -1,6 +1,6 @@
 
 const product = [
-    { id: 1, image: "./assets/img/product1.webp", src: "https://thaolv-03.github.io/Product1/", productname: "ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+) (Đen) (Black)", productprice: "15.880.000 ₫", productcost: "16.990.000 ₫", productdiscount: "-6.53%" } ,
+    { id: 1, image: "./assets/img/product1.webp", src: "https://thaolv-03.github.io/Product1/", productname: "ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+)", productprice: "16.290.000 ₫", productcost: "16.990.000 ₫", productdiscount: "-4.12%" } ,
     { id: 2, image: "./assets/img/product2.webp", src: "https://thaolv-03.github.io/Product2/", productname: "Nguồn máy tính SEGOTEP SG-750AE - 650W - 80 Plus", productprice: "999.000 ₫", productcost: "1.199.000 ₫", productdiscount: "-16.68%" },
     { id: 3, image: "./assets/img/product3.webp", src: "https://thaolv-03.github.io/Product3/", productname: "Nguồn máy tính SEGOTEP GP-850G - 750W - 80 Plus Gold - Full Modular", productprice: "2.090.000 ₫", productcost: "2.520.000 ₫", productdiscount: "-17.06%" },
     { id: 4, image: "./assets/img/product4.webp", src: "https://thaolv-03.github.io/Product4/", productname: "PC Dell Vostro 3888 MT RJMM6D3(Intel Core i5-10400/8GB/1TBHDD/Windows 11 Home SL 64-bit + Office 2021 Home & Student/WiFi 802.11ac)", productprice: "13.490.000 ₫", productcost: "13.990.000 ₫", productdiscount: "-3.57%" },
