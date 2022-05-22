@@ -115,12 +115,12 @@ function renderProduct() {
         if(index >= start && index < end) {
             html += '<div class="product">';
         html += '<div class="img-product">';
-        html += '<a href=' + item.src + '>';
+        html += '<a href=' + item.src + ' target="_blank">';
         html += '<img src='+ item.image +'>';
         html += '</a>';
         html += '</div>';
         html += '<div class="product-name">';
-        html += '<a href=' + item.src + '>';
+        html += '<a href=' + item.src + ' >';
         html += item.productname + '</a>';
         html += '</div>';
         html += '<div class="product-price">'+ item.productprice +'</div>';
