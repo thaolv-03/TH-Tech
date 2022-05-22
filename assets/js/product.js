@@ -120,7 +120,7 @@ function renderProduct() {
         html += '</a>';
         html += '</div>';
         html += '<div class="product-name">';
-        html += '<a href=' + item.src + ' >';
+        html += '<a href=' + item.src + ' target="_blank">';
         html += item.productname + '</a>';
         html += '</div>';
         html += '<div class="product-price">'+ item.productprice +'</div>';
