@@ -4,10 +4,11 @@
     position: absolute;
     top: 110px;
     height: 3300px;
+    padding: 0 17%; 
 }
 
 .content-menu-build {
-    width: 1250px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
