@@ -312,7 +312,7 @@
     }
 
     .item-col__row img {
-        width: 120px !important;
+        width: 100px !important;
     }
 
     .cp-r2 {
@@ -331,7 +331,7 @@
     }
 
     .product-paging {
-        width: 450px !important;
+        width: 100% !important;
         margin-top: 2050px !important;
     }
 
@@ -369,6 +369,10 @@
 
     .footer-col4 {
         width: 60%;
+    }
+
+    .ft-content-pay {
+        flex-wrap: wrap;
     }
 
     .btn-contact {
