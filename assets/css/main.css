@@ -240,12 +240,11 @@
         display: none !important;
     }
 }
-
-
+/* Mobile */
 @media screen and (max-width: 767px) {
 
     .page {
-        height: 6900px !important;
+        height: 6950px !important;
     }
 
     /* --------------- header --------------- */
@@ -401,7 +400,7 @@
     /* --------------- footer --------------- */
 
     footer {
-        height: 450px !important;
+        height: 530px !important;
     }
 
     .footer-block {
