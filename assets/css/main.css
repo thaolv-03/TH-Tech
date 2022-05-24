@@ -256,11 +256,45 @@
 
     .header {
         max-width: 100%;
-        padding: 0 3% !important;
+        padding: 0 5% !important;
+        
+    }
+
+    .header__logo {
+        flex: 2;
     }
 
     #img1 {
         max-width: 80%;
+    }
+
+    .header__func {
+        flex: 1;
+        font-size: 24px !important;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nortification__none {
+        width: 250px !important;
+        height: 170px !important;
+    }
+
+    .cart__none {
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    .nortification__none--icon img {
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .cart__none--icon img {
+        width: 120px;
+        margin: 0 auto;
+        margin-bottom: 5px;
     }
 
     /* --------------- slide --------------- */
