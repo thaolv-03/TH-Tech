@@ -245,7 +245,7 @@
 @media screen and (max-width: 768px) {
 
     .page {
-        height: 6500px !important;
+        height: 6900px !important;
     }
 
     /* --------------- header --------------- */
@@ -256,7 +256,7 @@
 
     .header {
         max-width: 100%;
-        padding: 0 3% !important;
+        padding: 0 5% !important;
     }
 
     #img1 {
@@ -282,9 +282,14 @@
     }
 
     /* --------------- content-brand --------------- */
+    .brand-title h3 {
+        font-size: 19px;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
     .content-brand {
-        height: 460px !important;
+        height: 830px !important;
     }
 
     .brands {
@@ -292,11 +297,11 @@
     }
 
     .brand-1 {
-        width: 50%;
+        width: 100%;
     }
 
     .brand-1 img {
-        width: 230px !important;
+        width: 290px !important;
     }
 
     /* --------------- content-computer-component --------------- */
@@ -309,6 +314,16 @@
     .computer-component__item {
         width: 100% !important;
         height: 460px !important;
+    }
+
+    .title-all a {
+        display: none;
+    }
+
+    .title-all h3 {
+        flex: 1;
+        text-align: center;
+        font-size: 19px;
     }
 
     .item-col__row img {
@@ -336,12 +351,17 @@
     }
 
     .img-product {
-        width: 220px !important;
+        width: 100% !important;
         margin: 0 auto;
     }
 
     .img-product img {
         width: 150px !important;
+    }
+
+    .product-title h3 {
+        font-size: 19px;
+        text-align: center;
     }
 
     /* --------------- footer --------------- */
