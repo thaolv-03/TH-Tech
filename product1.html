@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/img/iconTH.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ba36f54e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>ASUS ROG Phone 5S 8GB/128GB ZS676KS-1B112WW (Snapdragon 888+)</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/base_1.css">
+    <link rel="stylesheet" href="./assets/css/header_1.css">
+    <link rel="stylesheet" href="./assets/css/main_1.css">
+    <link rel="stylesheet" href="./assets/css/menu_1.css">
+    <link rel="stylesheet" href="./assets/css/product_1.css">
+    <link rel="stylesheet" href="./assets/css/contact-back.css">
+    <link rel="stylesheet" href="./assets/css/footer_1.css">
+</head>
+
+<body>
+    <div class="page" id="page">
+
+        <!-- Header  -->
+        <div class="header">
+            <div class="header__logo">
+                <a href="./index.html"><img id="img1" src="./assets/img/iconTH.png" alt=""></a>
+                <button class="btn-dmsp" onclick="Menu()">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>Danh mục sản phẩm</span>
+                </button>
+            </div>
+            <div class="header__search">
+                <input type="text" placeholder="Nhập từ khóa cần tìm">
+                <div class="header__search--btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="header__func">
+                <i class="fa-solid fa-bell">
+                    <div class="nortification">
+                        <div class="nortification__none">
+                            <div class="nortification__none--icon">
+                                <img src="./assets/img/norti.png" alt="">
+                            </div>
+                            <div class="nortification__none--text">
+                                <p>Bạn chưa có thông báo mới</p>
+                            </div>
+                        </div>
+                        <div class="nortification__exist"></div>
+                    </div>
+                </i>
+                <i class="fa-solid fa-cart-shopping">
+                    <div class="cart">
+                        <div class="cart__none">
+                            <div class="cart__none--icon">
+                                <img style="width: 140px;" src="./assets/img/cart_none.png" alt="">
+                            </div>
+                            <div class="cart__none--text">
+                                <p>Giỏ hàng chưa có sản phẩm nào</p>
+                            </div>
+                        </div>
+                        <div class="cart__exist"></div>
+                    </div>
+                </i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+
+        <!-- Menu  -->
+        <div class="mist" id="mist"></div>
+        <div class="content" id="content">
+
+            <div class="content-menu"  >
+                <div class="menu" id="menu">
+                    <div class="menu-f">
+                        <div class="row1 row1-1">
+                            <i class="icon-menu fa-solid fa-laptop "></i>
+                            <p class="text-menu">Laptop & Macbook</p>
+                            <!---------------- MENU ROW 1 ---------------->
+                            <div class="menu-row1">
+                                <div class="menu-row1__col1">
+                                    <h4>Laptop theo thương hiệu</h4>
+                                    <ul>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">ASUS</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">LG</a></li>
+                                        <li><a href="#">MSI</a></li>
+                                        <li><a href="#">Huawei</a></li>
+                                        <li><a href="#">Gigabyte</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row1__col2">
+                                    <div class="menu-row1__col2--row1">
+                                        <h4>Laptop theo cấu hình</h4>
+                                        <ul>
+                                            <li><a href="#">Intel Pentium/Celeron</a></li>
+                                            <li><a href="#">Intel Core i3</a></li>
+                                            <li><a href="#">Intel Core i5</a></li>
+                                            <li><a href="#">Intel Core i7</a></li>
+                                            <li><a href="#">Intel Core i9</a></li>
+                                            <li><a href="#">AMD Ryzen 3</a></li>
+                                            <li><a href="#">AMD Ryzen 5</a></li>
+                                            <li><a href="#">AMD Ryzen 7</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row1__col2--row2">
+                                        <h4>Laptop theo kích thước</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 13 inch</a></li>
+                                            <li><a href="#">13 - 15 inch</a></li>
+                                            <li><a href="#">Trên 15 inch</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row1__col3">
+                                    <div class="menu-row1__col3--row1">
+                                        <h4>Laptop theo nhu cầu</h4>
+                                        <ul>
+                                            <li><a href="#">Laptop Gaming</a></li>
+                                            <li><a href="#">Laptop đồ họa</a></li>
+                                            <li><a href="#">Laptop 2 trong 1</a></li>
+                                            <li><a href="#">Laptop Sinh viên - Văn phòng</a></li>
+                                            <li><a href="#">Laptop mỏng nhẹ</a></li>
+                                            <li><a href="#">Laptop Workstation</a></li>
+                                            <li><a href="#">Laptop Mini</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row1__col3--row2">
+                                        <h4>Linh kiện laptop</h4>
+                                        <ul>
+                                            <li><a href="#">Bàn phím laptop</a></li>
+                                            <li><a href="#">Sạc laptop</a></li>
+                                            <li><a href="#">Pin laptop</a></li>
+                                            <li><a href="#">RAM laptop</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row1__col4">
+                                    <div class="menu-row1__col4--row1">
+                                        <h4>Laptop theo giá</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 10 triệu</a></li>
+                                            <li><a href="#">10 - 15 triệu</a></li>
+                                            <li><a href="#">15 - 20 triệu</a></li>
+                                            <li><a href="#">20 - 25 triệu</a></li>
+                                            <li><a href="#">25 - 30 triệu</a></li>
+                                            <li><a href="#">Trên 30 triệu</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row1__col4--row2">
+                                        <h4>Phụ kiện laptop</h4>
+                                        <ul>
+                                            <li><a href="#">Balo laptop</a></li>
+                                            <li><a href="#">Túi đựng laptop</a></li>
+                                            <li><a href="#">Đế tản nhiệt</a></li>
+                                            <li><a href="#">Miếng dán laptop</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-2">
+                            <i class="icon-menu fa-solid fa-tablet-screen-button"></i>
+                            <p class="text-menu">Điện thoại - Tablet</p>
+                            <!---------------- MENU ROW 2 ---------------->
+                            <div class="menu-row2">
+                                <div class="menu-row2__col1">
+                                    <h4>Điện thoại</h4>
+                                    <ul>
+                                        <li><a href="#">iPhone</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Asus</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">Pixel</a></li>
+                                        <li><a href="#">Vivo</a></li>
+                                        <li><a href="#">Oppo</a></li>
+                                        <li><a href="#">LG</a></li>
+                                        <li><a href="#">Huawei</a></li>
+                                        <li><a href="#">Sony</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row2__col2">
+                                    <div class="menu-row2__col2--row1">
+                                        <h4>Điện thoại theo giá</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 5 triệu</a></li>
+                                            <li><a href="#">5 - 10 triệu</a></li>
+                                            <li><a href="#">10 - 15 triệu</a></li>
+                                            <li><a href="#">15 - 20 triệu</a></li>
+                                            <li><a href="#">Trên 20 triệu</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row2__col2--row2">
+                                        <h4>Phụ kiện</h4>
+                                        <ul>
+                                            <li><a href="#">Bao da - Ốp lưng</a></li>
+                                            <li><a href="#">Pin dự phòng</a></li>
+                                            <li><a href="#">Sạc không dây</a></li>
+                                            <li><a href="#">Cáp sạc</a></li>
+                                            <li><a href="#">Cục sạc</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row2__col3">
+                                    <div class="menu-row2__col3--row1">
+                                        <h4>Máy tính bảng</h4>
+                                        <ul>
+                                            <li><a href="#">Apple</a></li>
+                                            <li><a href="#">Samsung</a></li>
+                                            <li><a href="#">Xiaomi</a></li>
+                                            <li><a href="#">Lenovo</a></li>
+                                            <li><a href="#">Masstel</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row2__col3--row2">
+                                        <h4>Máy tính bảng theo giá</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 5 triệu</a></li>
+                                            <li><a href="#">5 - 10 triệu</a></li>
+                                            <li><a href="#">10 - 20 triệu</a></li>
+                                            <li><a href="#">Trên 20 triệu</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="row1 row1-3">
+                            <i class="icon-menu fa-solid fa-house-lock"></i>
+                            <p class="text-menu">Thiết bị thông minh</p>
+                            <!---------------- MENU ROW 3 ---------------->
+                            <div class="menu-row3">
+                                <div class="menu-row3__col1">
+                                    <h4>Thiết bị Smart Home</h4>
+                                    <ul>
+                                        <li><a href="#">Bộ điều khiển trung tâm</a></li>
+                                        <li><a href="#">Thiết bị điều khiển</a></li>
+                                        <li><a href="#">Bộ cảm biến</a></li>
+                                        <li><a href="#">Chuông báo động</a></li>
+                                        <li><a href="#">Công tắc thông minh</a></li>
+                                        <li><a href="#">Ổ cắm thông minh</a></li>
+                                        <li><a href="#">Đèn thông minh</a></li>
+                                        <li><a href="#">Khóa cửa thông minh</a></li>
+                                        <li><a href="#">Camera thông minh</a></li>
+                                        <li><a href="#">Xe điện</a></li>
+                                        <li><a href="#">Sản phẩm khác</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row3__col2">
+                                    <h4>Đồng hồ thông minh</h4>
+                                    <ul>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Garmin</a></li>
+                                        <li><a href="#">Fitbit</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">Khác</a></li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="row1 row1-4">
+                            <i class="icon-menu fa-solid fa-computer"></i>
+                            <p class="text-menu">PC - Máy tính đồng bộ</p>
+                            <!---------------- MENU ROW 4 ---------------->
+                            <div class="menu-row4">
+                                <div class="menu-row4__col1">
+                                    <h4>PC theo thương hiệu</h4>
+                                    <ul>
+                                        <li><a href="#">Phong Vũ</a></li>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">ASUS</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">MSI</a></li>
+                                        <li><a href="#">Intel</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row4__col2">
+                                    <div class="menu-row4__col2--row1">
+                                        <h4>PC theo nhu cầu</h4>
+                                        <ul>
+                                            <li><a href="#">PC văn phòng</a></li>
+                                            <li><a href="#">PC Gaming</a></li>
+                                            <li><a href="#">PC đồ họa</a></li>
+                                            <li><a href="#">PC All-In-One</a></li>
+                                            <li><a href="#">PC Mini</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row4__col2--row2">
+                                        <h4>PC theo giá tiền</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 10 triệu</a></li>
+                                            <li><a href="#">10 - 15 triệu</a></li>
+                                            <li><a href="#">15 - 20 triệu</a></li>
+                                            <li><a href="#">Trên 20 triệu</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row4__col3">
+                                    <h4>PC theo cấu hình chip</h4>
+                                    <ul>
+                                        <li><a href="#">Pentium/Celeron</a></li>
+                                        <li><a href="#">Core i3</a></li>
+                                        <li><a href="#">Core i5</a></li>
+                                        <li><a href="#">Core i7</a></li>
+                                        <li><a href="#">Xeon</a></li>
+                                        <li><a href="#">Ryzen</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-5">
+                            <i class="icon-menu fa-solid fa-display"></i>
+                            <p class="text-menu">Màn hình máy tính</p>
+                            <!---------------- MENU ROW 5 ---------------->
+                            <div class="menu-row5">
+                                <div class="menu-row5__col1">
+                                    <h4>Theo thương hiệu</h4>
+                                    <ul>
+                                        <li><a href="#">Acer</a></li>
+                                        <li><a href="#">AOC</a></li>
+                                        <li><a href="#">ASUS</a></li>
+                                        <li><a href="#">BenQ</a></li>
+                                        <li><a href="#">Cooler Master</a></li>
+                                        <li><a href="#">Dell</a></li>
+                                        <li><a href="#">HP</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                        <li><a href="#">LG</a></li>
+                                        <li><a href="#">MSI</a></li>
+                                        <li><a href="#">Philips</a></li>
+                                        <li><a href="#">Viewsonic</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row5__col2">
+                                    <h4>Theo giá</h4>
+                                    <ul>
+                                        <li><a href="#">Dưới 3 triệu</a></li>
+                                        <li><a href="#">3 đến 5 triệu</a></li>
+                                        <li><a href="#">5 đến 10 triệu</a></li>
+                                        <li><a href="#">10 đến 15 triệu</a></li>
+                                        <li><a href="#">15 đến 20 triệu</a></li>
+                                        <li><a href="#">Trên 20 triệu</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row5__col3">
+                                    <div class="menu-row5__col3--row1">
+                                        <h4>Theo kích cỡ</h4>
+                                        <ul>
+                                            <li><a href="#">Dưới 19"</a></li>
+                                            <li><a href="#">19.5" đến 21.5"</a></li>
+                                            <li><a href="#">22" đến 25"</a></li>
+                                            <li><a href="#">27" đến 29"</a></li>
+                                            <li><a href="#">31.5" trở lên</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row5__col3--row2">
+                                        <h4>Theo nhu cầu</h4>
+                                        <ul>
+                                            <li><a href="#">Màn hình Gaming</a></li>
+                                            <li><a href="#">Màn hình thiết kế</a></li>
+                                            <li><a href="#">Màn hình cong</a></li>
+                                            <li><a href="#">Màn hình văn phòng</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row5__col4">
+                                    <div class="menu-row5__col4--row1">
+                                        <h4>Tần số quét</h4>
+                                        <ul>
+                                            <li><a href="#">60 Hz</a></li>
+                                            <li><a href="#">75 Hz</a></li>
+                                            <li><a href="#">144 Hz</a></li>
+                                            <li><a href="#">165 Hz</a></li>
+                                            <li><a href="#">240 Hz</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row5__col4--row2">
+                                        <h4>Độ phân giải</h4>
+                                        <ul>
+                                            <li><a href="#">HD 720p</a></li>
+                                            <li><a href="#">Full HD 1080p</a></li>
+                                            <li><a href="#">1440p</a></li>
+                                            <li><a href="#">UHD 4K</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-6">
+                            <i class="icon-menu fa-solid fa-microchip"></i>
+                            <p class="text-menu">Linh kiện máy tính</p>
+                            <!---------------- MENU ROW 6 ---------------->
+                            <div class="menu-row6">
+                                <div class="menu-row6__col1">
+                                    <h4>CPU - Bộ vi xử lý</h4>
+                                    <ul>
+                                        <li><a href="#">Pentium</a></li>
+                                        <li><a href="#">Core i3</a></li>
+                                        <li><a href="#">Core i5</a></li>
+                                        <li><a href="#">Core i7</a></li>
+                                        <li><a href="#">Core i9</a></li>
+                                        <li><a href="#">Xeon</a></li>
+                                        <li><a href="#">Athlon</a></li>
+                                        <li><a href="#">Ryzen 3</a></li>
+                                        <li><a href="#">Ryzen 5</a></li>
+                                        <li><a href="#">Ryzen 7</a></li>
+                                        <li><a href="#">Ryzen 9</a></li>
+                                        <li><a href="#">Threadripper</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row6__col2">
+                                    <h4>Ổ cứng</h4>
+                                    <ul>
+                                        <li><a href="#">WD</a></li>
+                                        <li><a href="#">Seagate</a></li>
+                                        <li><a href="#">Kingston</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Kingmax</a></li>
+                                        <li><a href="#">Crucial</a></li>
+                                        <li><a href="#">Transcend</a></li>
+                                        <li><a href="#">Sandisk</a></li>
+                                        <li><a href="#">Ổ cứng HDD</a></li>
+                                        <li><a href="#">Ổ cứng SSD</a></li>
+                                        <li><a href="#">Ổ cứng di động</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row6__col3">
+                                    <div class="menu-row6__col3--row1">
+                                        <h4>Case - Thùng máy tính</h4>
+                                        <ul>
+                                            <li><a href="#">SAMA</a></li>
+                                            <li><a href="#">XIGMATEK</a></li>
+                                            <li><a href="#">Golden Field</a></li>
+                                            <li><a href="#">Deepcool</a></li>
+                                            <li><a href="#">Phong Vũ</a></li>
+                                            <li><a href="#">Cooler Master</a></li>
+                                            <li><a href="#">Aerocool</a></li>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row6__col3--row2">
+                                        <h4>Tản nhiệt</h4>
+                                        <ul>
+                                            <li><a href="#">Tản nhiệt khí</a></li>
+                                            <li><a href="#">Tản nhiệt nước</a></li>
+                                            <li><a href="#">Quạt Case</a></li>
+                                            <li><a href="#">Quạt CPU</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row6__col4">
+                                    <div class="menu-row6__col4--row1">
+                                        <h4>VGA - Card màn hình</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">Colorful</a></li>
+                                            <li><a href="#">GALAX</a></li>
+                                            <li><a href="#">GIGABYTE</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">NVIDIA</a></li>
+                                            <li><a href="#">AMD</a></li>
+    
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row6__col4--row2">
+                                        <h4>Mainboard - Bo mạch chủ</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">ASRock</a></li>
+                                            <li><a href="#">GIGABYTE</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">Intel</a></li>
+                                            <li><a href="#">AMD</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row6__col5">
+                                    <div class="menu-row6__col5--row1">
+                                        <h4>PSU - Nguồn máy tính</h4>
+                                        <ul>
+                                            <li><a href="#">Cooler Master</a></li>
+                                            <li><a href="#">Golden Field</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                            <li><a href="#">Gigabyte</a></li>
+                                            <li><a href="#">AcBel</a></li>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row6__col5--row2">
+                                        <h4>RAM - Bộ nhớ</h4>
+                                        <ul>
+                                            <li><a href="#">Kingston</a></li>
+                                            <li><a href="#">Gigabyte</a></li>
+                                            <li><a href="#">KINGMAX</a></li>
+                                            <li><a href="#">G.SKILL</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-7">
+                            <i class="icon-menu fa-solid fa-gamepad"></i>
+                            <p class="text-menu">Hi-End Gaming</p>
+                            <!---------------- MENU ROW 7 ---------------->
+                            <div class="menu-row7">
+                                <div class="menu-row7__col1">
+                                    <div class="menu-row7__col1--row1">
+                                        <h4>Màn hình Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">Acer</a></li>
+                                            <li><a href="#">BenQ</a></li>
+                                            <li><a href="#">Dell</a></li>
+                                            <li><a href="#">HP</a></li>
+                                            <li><a href="#">LG</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">Viewsonic</a></li>
+                                            <li><a href="#">Samsung</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row7__col1--row2">
+                                        <h4>Laptop Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">Dell</a></li>
+                                            <li><a href="#">HP</a></li>
+                                            <li><a href="#">Acer</a></li>
+                                            <li><a href="#">Lenovo</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row7__col2">
+                                    <div class="menu-row7__col2--row1">
+                                        <h4>Chuột Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">Logitech</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                            <li><a href="#">Razer</a></li>
+                                            <li><a href="#">SteelSeries</a></li>
+                                            <li><a href="#">Zowie</a></li>
+                                            <li><a href="#">HyperX</a></li>
+                                            <li><a href="#">AKKO</a></li>
+                                            <li><a href="#">Khác</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row7__col2--row2">
+                                        <h4>Lót chuột</h4>
+                                        <ul>
+                                            <li><a href="#">Logitech</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                            <li><a href="#">Razer</a></li>
+                                            <li><a href="#">SteelSeries</a></li>
+                                            <li><a href="#">AKKO</a></li>
+                                            <li><a href="#">Khác</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row7__col3">
+                                    <div class="menu-row7__col3--row1">
+                                        <h4>Ghế Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">Asus</a></li>
+                                            <li><a href="#">Corsair</a></li>
+                                            <li><a href="#">DXRacer</a></li>
+                                            <li><a href="#">E-Dra</a></li>
+                                            <li><a href="#">MSI</a></li>
+                                            <li><a href="#">Alpha Gamer</a></li>
+                                            <li><a href="#">Drift Gaming</a></li>
+                                            <li><a href="#">Warrior</a></li>
+                                            <li><a href="#">Khác</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row7__col3--row2">
+                                        <h4>Thiết bị Livestream Game</h4>
+                                        <ul>
+                                            <li><a href="#">Capture Card</a></li>
+                                            <li><a href="#">Webcam</a></li>
+                                            <li><a href="#">Micro</a></li>
+                                            <li><a href="#">Stream Deck</a></li>
+                                            <li><a href="#">Key Light</a></li>
+                                            <li><a href="#">Phụ kiện</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row7__col4">
+                                    <div class="menu-row7__col4--row1">
+                                        <h4>Tai nghe Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">Logitech</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                            <li><a href="#">Razer</a></li>
+                                            <li><a href="#">SteelSeries</a></li>
+                                            <li><a href="#">HyperX</a></li>
+                                            <li><a href="#">Khác</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row7__col4--row2">
+                                        <h4>Tay cầm chơi game</h4>
+                                        <ul>
+                                            <li><a href="#">PlayStation</a></li>
+                                            <li><a href="#">Xbox</a></li>
+                                            <li><a href="#">Logitech</a></li>
+                                            <li><a href="#">Razer</a></li>
+                                            <li><a href="#">Khác</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row7__col5">
+                                    <div class="menu-row7__col5--row1">
+                                        <h4>Bàn phím Gaming</h4>
+                                        <ul>
+                                            <li><a href="#">ASUS</a></li>
+                                            <li><a href="#">Logitech</a></li>
+                                            <li><a href="#">CORSAIR</a></li>
+                                            <li><a href="#">Razer</a></li>
+                                            <li><a href="#">SteelSeries</a></li>
+                                            <li><a href="#">AKKO</a></li>
+                                            <li><a href="#">HyperX</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row7__col5--row2">
+                                        <h4>Máy chơi game</h4>
+                                        <ul>
+                                            <li><a href="#">PlayStation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="row1 row1-8">
+                            <i class="icon-menu fa-solid fa-headphones-simple"></i>
+                            <p class="text-menu">Thiết bị âm thanh</p>
+                            <!---------------- MENU ROW 8 ---------------->
+                            <div class="menu-row8">
+                                <div class="menu-row8__col1">
+                                    <h4>Tai nghe</h4>
+                                    <ul>
+                                        <li><a href="#">Apple</a></li>
+                                        <li><a href="#">Audio Technica</a></li>
+                                        <li><a href="#">Bose</a></li>
+                                        <li><a href="#">JBL</a></li>
+                                        <li><a href="#">Sony</a></li>
+                                        <li><a href="#">Sudio</a></li>
+                                        <li><a href="#">Over-Ear</a></li>
+                                        <li><a href="#">On-Ear</a></li>
+                                        <li><a href="#">In-Ear</a></li>
+                                        <li><a href="#">Tai nghe Bluetooth</a></li>
+                                        <li><a href="#">Tai nghe Gaming</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row8__col2">
+                                    <h4>Loa nghe nhạc</h4>
+                                    <ul>
+                                        <li><a href="#">Bose</a></li>
+                                        <li><a href="#">Harman Kardon</a></li>
+                                        <li><a href="#">JBL</a></li>
+                                        <li><a href="#">Logitech</a></li>
+                                        <li><a href="#">Microlab</a></li>
+                                        <li><a href="#">Sony</a></li>
+                                        <li><a href="#">SoundMax</a></li>
+                                        <li><a href="#">Remax</a></li>
+                                        <li><a href="#">Loa Bluetooth</a></li>
+                                        <li><a href="#">Loa Mini</a></li>
+                                        <li><a href="#">Loa Soundbar</a></li>
+                                        <li><a href="#">Loa vi tính</a></li>
+                                        <li><a href="#">Loa kéo</a></li>
+                                        <li><a href="#">Loa 2.0</a></li>
+                                        <li><a href="#">Loa 2.1</a></li>
+                                        <li><a href="#">Loa 4.1</a></li>
+                                        <li><a href="#">Loa 5.1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-9">
+                            <i class="icon-menu fa-solid fa-camera"></i>
+                            <p class="text-menu">Máy ảnh - Máy quay phim</p>
+                            <!---------------- MENU ROW 9 ---------------->
+                            <div class="menu-row9">
+                                <div class="menu-row9__col1">
+                                    <div class="menu-row9__col1--row1">
+                                        <h4>Máy ảnh</h4>
+                                        <ul>
+                                            <li><a href="#">Canon</a></li>
+                                            <li><a href="#">SONY</a></li>
+                                            <li><a href="#">Fujifilm</a></li>
+    
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row9__col1--row2">
+                                        <h4>Máy quay phim</h4>
+                                        <ul>
+                                            <li><a href="#">Canon</a></li>
+                                            <li><a href="#">SONY</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row9__col2">
+                                    <div class="menu-row9__col2--row1">
+                                        <h4>Camera hành trình</h4>
+                                        <ul>
+                                            <li><a href="#">GoPro</a></li>
+                                            <li><a href="#">Transcend</a></li>
+                                            <li><a href="#">EZVIZ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row9__col2--row2">
+                                        <h4>Phụ kiện</h4>
+                                        <ul>
+                                            <li><a href="#">Ống kính - Lens</a></li>
+                                            <li><a href="#">Phụ kiện GoPro</a></li>
+                                            <li><a href="#">Phụ kiện khác</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-10">
+                            <i class="icon-menu fa-solid fa-print"></i>
+                            <p class="text-menu">Thiết bị văn phòng</p>
+                            <!---------------- MENU ROW 10 ---------------->
+                            <div class="menu-row10">
+                                <div class="menu-row10__col1">
+                                    <div class="menu-row10__col1--row1">
+                                        <h4>Máy in văn phòng</h4>
+                                        <ul>
+                                            <li><a href="#">Brother</a></li>
+                                            <li><a href="#">Canon</a></li>
+                                            <li><a href="#">Epson</a></li>
+                                            <li><a href="#">HP</a></li>
+                                            <li><a href="#">Máy in Laser</a></li>
+                                            <li><a href="#">Máy in kim</a></li>
+                                            <li><a href="#">Máy in phun</a></li>
+                                            <li><a href="#">Máy in đa năng</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row10__col1--row2">
+                                        <h4>Máy chủ Server</h4>
+                                        <ul>
+                                            <li><a href="#">Dell</a></li>
+                                            <li><a href="#">HP</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row10__col2">
+                                    <div class="menu-row10__col2--row1">
+                                        <h4>Mực in - Giấy in</h4>
+                                        <ul>
+                                            <li><a href="#">Mực in Laser</a></li>
+                                            <li><a href="#">Mực in phun</a></li>
+                                            <li><a href="#">Mực in máy Fax</a></li>
+                                            <li><a href="#">Drum</a></li>
+                                            <li><a href="#">Ruy băng</a></li>
+                                            <li><a href="#">Giấy in</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row10__col2--row2">
+                                        <h4>Phần mềm</h4>
+                                        <ul>
+                                            <li><a href="#">Windows</a></li>
+                                            <li><a href="#">Microsoft Office</a></li>
+                                            <li><a href="#">Diệt Virus</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row10__col3">
+                                    <div class="menu-row10__col3--row1">
+                                        <h4>Thiết bị khác</h4>
+                                        <ul>
+                                            <li><a href="#">Máy quét mã vạch</a></li>
+                                            <li><a href="#">Máy đếm tiền</a></li>
+                                            <li><a href="#">Máy chấm công</a></li>
+                                            <li><a href="#">Máy tính tiền</a></li>
+                                            <li><a href="#">Máy hủy tài liệu</a></li>
+                                            <li><a href="#">Máy ép nhựa</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row10__col3--row2">
+                                        <h4>Máy Fax</h4>
+                                        <ul>
+                                            <li><a href="#">Panasonic</a></li>
+                                            <li><a href="#">Brother</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row10__col3--row3">
+                                        <h4>Thiết bị điện thoại</h4>
+                                        <ul>
+                                            <li><a href="#">Điện thoại bàn</a></li>
+                                            <li><a href="#">Tổng đài điện thoại</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-row10__col4">
+                                    <div class="menu-row10__col4--row1">
+                                        <h4>Máy Scan</h4>
+                                        <ul>
+                                            <li><a href="#">Brother</a></li>
+                                            <li><a href="#">Canon</a></li>
+                                            <li><a href="#">Epson</a></li>
+                                            <li><a href="#">HP</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-row10__col4--row2">
+                                        <h4>Thiết bị trình chiếu</h4>
+                                        <ul>
+                                            <li><a href="#">Máy chiếu</a></li>
+                                            <li><a href="#">Màn chiếu</a></li>
+                                            <li><a href="#">Bút trình chiếu</a></li>
+                                            <li><a href="#">Giá treo máy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 row1-11">
+                            <i class="icon-menu fa-solid fa-tower-broadcast"></i>
+                            <p class="text-menu">Thiết bị mạng - An ninh</p>
+                            <!---------------- MENU ROW 11 ---------------->
+                            <div class="menu-row11">
+                                <div class="menu-row11__col1">
+                                    <h4>Thiết bị mạng</h4>
+                                    <ul>
+                                        <li><a href="#">ASUS</a></li>
+                                        <li><a href="#">TP-Link</a></li>
+                                        <li><a href="#">TOTOLINK</a></li>
+                                        <li><a href="#">D-Link</a></li>
+                                        <li><a href="#">Tenda</a></li>
+                                        <li><a href="#">Linksys</a></li>
+                                        <li><a href="#">DrayTek</a></li>
+                                        <li><a href="#">Cisco</a></li>
+                                        <li><a href="#">Router WiFi 6</a></li>
+                                        <li><a href="#">Router WiFi</a></li>
+                                        <li><a href="#">WiFi Mesh</a></li>
+                                        <li><a href="#">Hub - Switch</a></li>
+                                        <li><a href="#">USB WiFi</a></li>
+                                        <li><a href="#">USB 3G/4G</a></li>
+                                        <li><a href="#">Card mạng</a></li>
+                                        <li><a href="#">Cáp mạng</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-row11__col2">
+                                    <h4>Thiết bị an ninh</h4>
+                                    <ul>
+                                        <li><a href="#">KBVISION</a></li>
+                                        <li><a href="#">HIKVISION</a></li>
+                                        <li><a href="#">QUESTEK</a></li>
+                                        <li><a href="#">EZVIZ</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">Camera an ninh</a></li>
+                                        <li><a href="#">Camera WiFi</a></li>
+                                        <li><a href="#">Đầu ghi hình</a></li>
+                                        <li><a href="#">Thiết bị báo trộm</a></li>
+                                        <li><a href="#">Chuông cửa</a></li>
+                                        <li><a href="#">Đầu dò hồng ngoại</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-home-product">
+                <!-- <button class="btn-home" onclick="window.location.href='https://thaolv-03.github.io/TH-Tech/';">
+                    <i class="fa-solid fa-house"></i>
+                </button> -->
+                <button class="btn-home">
+                    <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+                </button>
+                <i class="fa-solid fa-angle-right"></i>
+                <div class="product-name">Điện thoại ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+)</div>
+            </div>
+
+            <div class="content-product">
+
+                <div class="product">
+                    <div class="product__name">
+                        <h4>ASUS ROG Phone 5S 8GB/128GB ZS676KS-1A111WW (Snapdragon 888+)</h4>
+                    </div>
+                    <div class="product__row">
+
+
+                        <div class="product__img1 product__img active">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/img/p1-1.webp" class="d-block w-100" alt="img1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-2.webp" class="d-block w-100" alt="img2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-3.webp" class="d-block w-100" alt="img3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-4.webp" class="d-block w-100" alt="img4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-5.webp" class="d-block w-100" alt="img5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-6.webp" class="d-block w-100" alt="img6">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-7.webp" class="d-block w-100" alt="img7">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="visually-hidden">Previous</span>
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="visually-hidden">Next</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product__img2 product__img">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/img/p1-8.webp" class="d-block w-100" alt="img1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-9.webp" class="d-block w-100" alt="img2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-10.webp" class="d-block w-100" alt="img3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/img/p1-11.webp" class="d-block w-100" alt="img4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="visually-hidden">Previous</span>
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="visually-hidden">Next</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="product__selection-buy">
+                            <div class="product__selection">
+                                <div class="product__selection--price">
+                                    <div class="price">16.290.000 ₫</div>
+                                    <div class="cost">16.990.000 ₫</div>
+                                </div>
+                                <div class="selection-color-capacity">
+                                    <div class="product__selection--color">
+                                        <p class="selection-title">Màu sắc</p>
+                                        <div class="color">
+                                            <button class="btn-color-1 btn-color active">Black</button>
+                                            <button class="btn-color-2 btn-color">White</button>
+                                        </div>
+                                    </div>
+                                    <div class="product__selection--capacity">
+                                        <p class="selection-title">Dung lượng</p>
+                                        <div class="capacity">
+                                            <button class="btn-capacity-1 btn-capacity active">128GB</button>
+                                            <button class="btn-capacity-2 btn-capacity">256GB</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__buy">
+                                <button class="btn-buy">Mua ngay</button>
+                                <button class="btn-add">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-describe" id="content-describe">
+                <div class="describe-expand" id="describe-expand">
+                    <div class="content-describe__describe">
+                        <div class="describe__title">
+                            Đặc điểm nổi bật của Asus ROG 5S 5G
+                        </div>
+                        <div class="describe__content">
+                            <p style="font-weight: 500;">Với chip xử lý Qualcomm Snapdragon 888+ 5G cực mạnh, màn hình
+                                AMOLED tần số quét 144Hz/1ms và
+                                viên pin dung lượng pin 6.000 mAh, chiếc điện thoại Asus ROG Phone 5S sẽ đem đến trải
+                                nghiệm
+                                gaming mà không một mẫu smartphone nào trên thị trường có thể đạt được. Ngoài ra, loạt
+                                tính
+                                năng như AirTrigger 5 kết hợp cùng âm thanh GameFX cao cấp cũng hứa hẹn những trải
+                                nghiệm
+                                hàng đầu thế giới hiện tại.
+                            </p>
+                            <img src="./assets/img/pro1.jpg" alt="">
+                            <h3>Chip xử lý mạnh mẽ xuất sắc hàng đầu</h3>
+                            <p>Sở hữu một trong những bộ vi xử lý hàng đầu thị trường là Snapdragon 888+ đi kèm GPU
+                                Adreno
+                                660. Chip Snapdragon 888+ sở hữu lõi chính 3.0 GHz (Cortex-X1) cải tiến hơn so với lõi
+                                2.84
+                                GHz trên chip Snapdragon 888 của Asus ROG Phone 5. Chipset này giúp Asus ROG Phone 5S có
+                                thể
+                                xử lý tốt mọi tác vụ và chiến mọi tựa game mà không lo giật lag.
+                            </p>
+                            <img src="./assets/img/pro2.jpg" alt="">
+                            <h3>Tản nhiệt hiệu quả, hiệu suất ổn định</h3>
+                            <p>Asus ROG Phone 5S tối ưu hiệu năng tổng thể bằng cách sử dụng hệ thống tản nhiệt GameCool
+                                5
+                                với cấu trúc bao bọc CPU và chia tách hệ thống pin ra hai bên. Nhờ vậy, sản phẩm dễ dàng
+                                phân tách nhiệt lượng ra toàn bộ khung máy, duy trì hiệu năng không đổi trong quá trình
+                                vận
+                                hành.
+
+                                Trung tâm thân máy sẽ hạn chế tích tụ nhiệt nhờ sự hỗ trợ của buồng hơi tái thiết kế kèm
+                                các
+                                tấm graphite mở rộng. Chiếc điện thoại Asus còn được trang bị kèm quạt tản nhiệt
+                                AeroActive
+                                Cooler 5 có khả năng thổi khí mát vào vị trí đặt chip, từ đó giảm tới 10°C nhiệt độ thân
+                                máy.</p>
+                            <img src="./assets/img/pro3.jpg" alt="">
+                            <h3>Màn hình siêu nét với tần số quét 144Hz</h3>
+                            <p>Nhờ tốc độ phản hồi cao và độ trễ cảm ứng cực thấp, màn hình Asus ROG Phone 5S 5G sẽ bắt
+                                kịp
+                                mọi thao tác tay để bạn luôn đi trước đối thủ trong những tình huống quyết định thắng
+                                thua
+                                của game đấu. Tấm nền AMOLED tần số quét 144Hz/1ms thể hiện khả năng hiển thị đỉnh cao,
+                                tái
+                                hiện mọi chi tiết siêu sắc nét và cho thấy độ chính xác gam màu vượt trội. Bạn sẽ có
+                                những
+                                trải nghiệm mãn nhãn nhất trên chiếc gaming phone đặc trưng này.</p>
+                            <img src="./assets/img/pro4.jpg" alt="">
+                            <h3>Bộ loa kép cho âm thanh đẳng cấp</h3>
+                            <p>Không chỉ đảm bảo chất lượng hình ảnh ấn tượng, Asus ROG Phone 5S còn khiến bạn thích thú
+                                với
+                                từng tiết tấu âm thanh trong game khi sở hữu bộ loa kép 7 nam châm đối xứng, đem lại
+                                hiệu
+                                ứng stereo cân bằng. Nhờ giữ lại jack 3.5 cao cấp, sản phẩm hỗ trợ tốt cho các dòng tai
+                                nghe
+                                ESS DAC hi-fi chất lượng cao. Công nghệ GameFX được nghiên cứu để trau chuốt từng sắc
+                                thái
+                                âm thanh trong bối cảnh game mà hiếm có một smartphone nào đạt được.</p>
+                            <img src="./assets/img/pro5.jpg" alt="">
+                            <h3>Cảm biến siêu âm và kiểm soát chuyển động</h3>
+                            <p>Trình điều khiển chuyển động mà Asus trang bị cho ROG Phone 5S bao gồm 10 cảm biến khác
+                                nhau,
+                                bạn sẽ dễ dàng lựa chọn các thao tác cử chỉ cho phù hợp với tựa game mà mình đang trải
+                                nghiệm. Những cú xoay nhẹ để drift khi đua xe kết hợp cùng động tác đẩy điện thoại về
+                                phía
+                                trước và tăng tốc sẽ khiến cho bạn nhập tâm hơn nhiều vào trò chơi mình thưởng thức.
+                                Ngoài
+                                ra, Asus ROG Phone 5S còn được tích hợp cảm biến vật lý đặc biệt ở cạnh bên, mang tới
+                                thao
+                                tác cử chỉ như đang cầm trong tay một máy chơi game console thực thụ.</p>
+                            <img src="./assets/img/pro6.jpg" alt="">
+                            <h3>Pin dài lâu, thoải mái chinh chiến</h3>
+                            <p>Với ROG Phone 5S 5G, trải nghiệm game của bạn sẽ chẳng ngại gián đoạn nhờ viên pin dung
+                                lượng
+                                “khủng” 6.000 mAh đi kèm công nghệ sạc HyperCharge 65W. Các tính năng nâng cao như ổn
+                                định
+                                dòng sạc cho phép bạn dùng nguồn trực tiếp trong quá trình chơi game, từ đó dễ dàng kéo
+                                dài
+                                tuổi thọ pin hơn so với việc chơi game trên những loại smartphone bình thường khác.</p>
+                            <img src="./assets/img/pro7.jpg" alt="">
+                            <h3>Thiết kế phục vụ cho trải nghiệm game</h3>
+                            <p>Asus ROG Phone 5S đem đến hệ thống LED Aura RGB kết hợp thành logo đặc trưng của thương
+                                hiệu.
+                                Khả năng phát sáng và chuyển sắc gradient với nhiều chủ đề sẽ đa dạng chắc chắn sẽ khiến
+                                bạn
+                                thích thú. Ngoài ra, Asus còn thể hiện sự chiều lòng game thủ khi tạo nên những gói giao
+                                diện đặc biệt bên trong với hình ảnh lấy cảm hứng từ những trò chơi được yêu thích nhất
+                                hiện
+                                tại.</p>
+                            <img src="./assets/img/pro8.jpg" alt="">
+                            <h3>Kết nối siêu ổn định nhờ 5G và Wi-Fi 6E</h3>
+                            <p>Mọi game thủ đều hiểu rõ tầm quan trọng của kết nối ổn định trong quá trình chơi game khi
+                                mà
+                                thắng thua đôi lúc chỉ quyết định trong một khoảnh khắc. Asus ROG Phone 5S đảm bảo luôn
+                                duy
+                                trì tín hiệu nhanh nhạy mọi lúc nhờ hỗ trợ các phương thức tương tác hàng đầu hiện nay
+                                kết
+                                nối mạng 5G và Wi-Fi 6E nhằm gia tăng tính ổn định. Không chỉ vậy, công nghệ đa anten
+                                với
+                                công nghệ HyperFusion sẽ mang tới khả năng chuyển sóng thông minh để tìm kiếm hệ thống
+                                mạng
+                                có sóng mạnh hơn.</p>
+                            <img src="./assets/img/pro9.jpg" alt="">
+                            <h3>Camera chất lượng với cảm biến hàng đầu</h3>
+                            <p>Cụm ba camera mà Asus ROG Phone 5S sở hữu có thể tạo được những khuôn hình chất lượng sắc
+                                nét
+                                trong mọi góc độ. Trong đó, camera chính cảm biến Sony IMX686 64MP sẽ kết hợp cùng
+                                camera
+                                siêu rộng 13MP cùng camera macro.
+
+                                Toàn bộ thông tin mà camera truyền về sẽ được xử lý bởi hệ thống phần mềm một cách hiệu
+                                quả
+                                nhằm tạo ra các bức ảnh/video cao cấp nhất. Các tính năng như Free Zoom, Wind Filter và
+                                Acoustic Focus giúp chủ nhân chiếc điện thoại thoải mái căn chỉnh cho những tác vụ như
+                                livestream hay selfie.</p>
+                            <img src="./assets/img/pro10.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="expand" id="btn-expand">
+                        <button>Đọc thêm <i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                    <div class="collapse" id="btn-collapse">
+                        <button>Thu gọn <i class="fa-solid fa-caret-up"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="content-describe__detail">
+                    <div class="detail__title">
+                        Thông số kỹ thuật
+                    </div>
+
+                    <div class="detail__content">
+                        <table border="1px">
+                            <tr>
+                                <td>Màn hình</td>
+                                <td>6.8 inch, FHD+, 2448 x 1080 Pixels</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau</td>
+                                <td>64.0 MP + 13.0 MP + 5.0 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera Selfie</td>
+                                <td>24.0 MP</td>
+                            </tr>
+                            <tr>
+                                <td>RAM</td>
+                                <td>8 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Bộ nhớ trong</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>CPU</td>
+                                <td>Snapdragon 888+</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng pin</td>
+                                <td>6000 mAh</td>
+                            </tr>
+                            <tr>
+                                <td>Thẻ sim</td>
+                                <td>2 - 2 Nano SIM</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành</td>
+                                <td>Android 11</td>
+                            </tr>
+                            <tr>
+                                <td>Xuất xứ</td>
+                                <td>Việt Nam</td>
+                            </tr>
+                            <tr>
+                                <td>Thời gian ra mắt</td>
+                                <td>12/2021</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-related-product">
+                <div class="content-related__title">
+                    Sản phẩm liên quan
+                </div>
+
+                <div class="content-related__product">
+                    <div class="related-product">
+                        <div class="img-rp">
+                            <a href="#">
+                                <img src="./assets/img/related1.webp" alt="">
+                                <div class="related-product__name">Tai nghe không dây Asus ROG Cetra True WL</div>
+                            </a>
+                            <div class="related-product__price">2.049.000 ₫</div>
+                            <div class="related-product__cost">2.290.000 ₫</div>
+                        </div>
+                    </div>
+                    <div class="related-product">
+                        <div class="img-rp">
+                            <a href="#">
+                                <img src="./assets/img/related2.webp" alt="">
+                                <div class="related-product__name">Mainboard ASUS ROG STRIX B460-G GAMING</div>
+                            </a>
+                            <div class="related-product__price">3.690.000 ₫</div>
+                            <div class="related-product__cost"></div>
+                        </div>
+                    </div>
+                    <div class="related-product">
+                        <div class="img-rp">
+                            <a href="#">
+                                <img src="./assets/img/related3.webp" alt="">
+                                <div class="related-product__name">Tai nghe Over-ear ASUS STRIX 2.0- ROG Gaming (Đen)
+                                </div>
+                            </a>
+                            <div class="related-product__price">2.150.000 ₫</div>
+                            <div class="related-product__cost"></div>
+                        </div>
+                    </div>
+                    <div class="related-product">
+                        <div class="img-rp">
+                            <a href="#">
+                                <img src="./assets/img/related4.webp" alt="">
+                                <div class="related-product__name">Ghế Asus ROG Chariot SL300C (Đen)</div>
+                            </a>
+                            <div class="related-product__price">17.390.000 ₫</div>
+                            <div class="related-product__cost"></div>
+                        </div>
+                    </div>
+                    <div class="related-product">
+                        <div class="img-rp">
+                            <a href="#">
+                                <img src="./assets/img/related5.webp" alt="">
+                                <div class="related-product__name">Laptop ASUS ROG Strix SCAR II GL504GM-ES312T (15.6"
+                                    FHD/i7-8750H/8GB/256GB SSD/GTX 1060/Win10/2.4 kg)</div>
+                            </a>
+                            <div class="related-product__price">38.490.000 ₫</div>
+                            <div class="related-product__cost">39.990.000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-block">
+                <div class="footer-col1">
+
+                    <div class="ft-title">Hỗ trợ khách hàng</div>
+                    <div class="ft-content">
+                        <ul>
+                            <li><a href="#">Trung tâm bảo hành</a></li>
+                            <li><a href="#">Thanh toán và giao thông</a></li>
+                            <li><a href="#">Dịch vụ sửa chữa và bảo trì</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col2">
+                    <div class="ft-title">Phương thức thanh toán</div>
+                    <div class="ft-content ft-content-pay">
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/qrcode.jpg" alt="">
+                                </div>
+                                <p>QR Code</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/tienmat.jpg" alt="">
+                                </div>
+                                <p>Tiền mặt</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/tragop.jpg" alt="">
+                                </div>
+                                <p>Trả góp</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/internetBanking.jpg" alt="">
+                                </div>
+                                <p>Internet Banking</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-col3">
+                    <div class="ft-title">Thông tin TH-Tech</div>
+                    <div class="ft-content">
+                        <ul>
+                            <li><a href="#">Giới thiệu TH-Tech</a></li>
+                            <li><a href="#">Thông tin liên hệ</a></li>
+                            <li><a href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col4">
+                    <div class="ft-title"></div>
+                    <div class="ft-content">
+                        <h3>Liên hệ</h3>
+                        <a href="mailto:thaolv.21it@vku.udn.vn">
+                            <i style="font-size: 15px; margin-right: 3px;" class="fa-solid fa-at"></i>
+                            thaolv.21it@vku.udn.vn</a>
+                        <a href="tel:0947180074">
+                            <i style="font-size: 15px; margin-right: 3px;" class="fa-solid fa-phone"></i>
+                            0947 180 074
+                        </a>
+                        <h3 class="h3-address">Địa chỉ</h3>
+                        <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+ngh%E1%BB%87+Th%C3%B4ng+tin+v%C3%A0+Truy%E1%BB%81n+th%C3%B4ng+Vi%E1%BB%87t+-+H%C3%A0n/@15.9750106,108.2510487,17z/data=!3m1!4b1!4m5!3m4!1s0x3142108997dc971f:0x1295cb3d313469c9!8m2!3d15.9750106!4d108.2532374?hl=vi-VN"
+                            target="_blank">
+                            Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn <br>
+                            470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Button contact -->
+    <button class="btn-contact" id="btn-instagram" title="Instagram"><a href="#"><img style="width: 43px;"
+                src="./assets/img/instagram.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-fb" title="Facebook"><a href="#"><img style="width: 42px;"
+                src="./assets/img/facebook.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-messenger" title="Messenger"><a href="#"><img style="width: 40px;"
+                src="./assets/img/messenger.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-phone" title="Điện thoại liên hệ"><a href="#"><img style="width: 44px;"
+                src="./assets/img/whatapp.png" alt=""></a></button>
+
+    <!-- Button to homepage -->
+    <button id="myBtn" title="Back to homepage"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/expand.js"></script>
+    <script src="./assets/js/proSlide.js"></script>
+</body>
+
+</html>

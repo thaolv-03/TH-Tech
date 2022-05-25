@@ -1,0 +1,297 @@
+/* ---------------- Menu Styling ---------------- */
+.content {
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    height: 3300px;
+    padding: 0 19%; 
+}
+
+.mist {
+    width: 100%;
+    position: absolute;
+    top: 88px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 2032px;
+    z-index: 10;
+    display: none;
+    transition: .4s;
+}
+
+.content-menu {
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 240px;
+    height: 465px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    top: 110px;
+    margin: 0 auto;
+    z-index: 10;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .4s;
+}
+
+.menu-f {
+    width: 240px;
+    height: 465px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.row1 {
+    width: 222px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.row1:hover {
+    background-color: rgb(224, 228, 230);
+    cursor: pointer;
+    color: #1435c3;
+}
+.row1-1 {
+    margin-top: 10px;
+}
+.icon-menu {
+    font-size: 22px;
+    margin: 0 15px;
+    opacity: 0.8;
+}
+
+.icon-menu.fa-tablet-screen-button {
+    margin: 0 19px;
+}
+.icon-menu.fa-display {
+    margin: 0 16px;
+}
+.icon-menu.fa-microchip {
+    font-size: 23px;
+    margin: 0 17px;
+}
+.icon-menu.fa-gamepad {
+    font-size: 21px;
+    margin: 0 16px;
+}
+.icon-menu.fa-headphones-simple {
+    margin: 0 18px;
+}
+.icon-menu.fa-camera {
+    margin: 0 18px;
+}
+.icon-menu.fa-print {
+    margin: 0 18px;
+}
+.icon-menu.fa-tower-broadcast {
+    margin: 0 17px;
+}
+.text-menu {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.menu-row1,
+.menu-row2,
+.menu-row3,
+.menu-row4,
+.menu-row5,
+.menu-row6,
+.menu-row7,
+.menu-row8,
+.menu-row9,
+.menu-row10,
+.menu-row11
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    left: 230px;
+    z-index: 10;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-row1 {
+    width: 785px;
+    height: 420px;
+}
+.menu-row2 {
+    width: 650px;
+    height: 400px;
+}
+.menu-row3 {
+    width: 500px;
+    height: 400px;
+}
+
+.menu-row4 {
+    width: 650px;
+    height: 420px;
+}
+.menu-row5 {
+    width: 700px;
+    height: 420px;
+}
+.menu-row6 {
+    width: 820px;
+    height: 465px;
+}
+.menu-row7 {
+    width: 850px;
+    height: 480px;
+}
+.menu-row8 {
+    width: 430px;
+    height: 500px;
+}
+.menu-row9 {
+    width: 350px;
+    height: 350px;
+}
+.menu-row10 {
+    width: 785px;
+    height: 420px;
+}
+.menu-row11 {
+    width: 430px;
+    height: 465px;
+}
+
+.menu-row1 li,
+.menu-row2 li,
+.menu-row3 li,
+.menu-row4 li,
+.menu-row5 li,
+.menu-row6 li,
+.menu-row7 li,
+.menu-row8 li,
+.menu-row9 li,
+.menu-row10 li,
+.menu-row11 li
+{   
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.menu-row1 li a,
+.menu-row2 li a,
+.menu-row3 li a,
+.menu-row4 li a,
+.menu-row5 li a,
+.menu-row6 li a,
+.menu-row7 li a,
+.menu-row8 li a,
+.menu-row9 li a,
+.menu-row10 li a,
+.menu-row11 li a
+{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.menu-row1 li a:hover,
+.menu-row2 li a:hover,
+.menu-row3 li a:hover,
+.menu-row4 li a:hover,
+.menu-row5 li a:hover,
+.menu-row6 li a:hover,
+.menu-row7 li a:hover,
+.menu-row8 li a:hover,
+.menu-row9 li a:hover,
+.menu-row10 li a:hover,
+.menu-row11 li a:hover
+{
+    color: #1435c3;
+}
+
+.menu-row1 h4,
+.menu-row2 h4,
+.menu-row3 h4,
+.menu-row4 h4,
+.menu-row5 h4,
+.menu-row6 h4,
+.menu-row7 h4,
+.menu-row8 h4,
+.menu-row9 h4,
+.menu-row10 h4,
+.menu-row11 h4
+{
+    color: #1435c3;
+    cursor: pointer;
+}
+
+.menu-row1__col2--row2,
+.menu-row1__col3--row2,
+.menu-row1__col4--row2,
+.menu-row2__col2--row2,
+.menu-row2__col3--row2,
+.menu-row4__col2--row2,
+.menu-row5__col3--row2,
+.menu-row5__col4--row2,
+.menu-row6__col3--row2,
+.menu-row6__col4--row2,
+.menu-row6__col5--row2,
+.menu-row7__col1--row2,
+.menu-row7__col2--row2,
+.menu-row7__col3--row2,
+.menu-row7__col4--row2,
+.menu-row7__col5--row2,
+.menu-row9__col1--row2,
+.menu-row9__col2--row2,
+.menu-row10__col1--row2,
+.menu-row10__col2--row2,
+.menu-row10__col3--row2,
+.menu-row10__col3--row3,
+.menu-row10__col4--row2
+{
+    margin-top: 15px;
+}
+
+/* Menu hover */
+
+.row1-1:hover .menu-row1,
+.row1-2:hover .menu-row2,
+.row1-3:hover .menu-row3,
+.row1-4:hover .menu-row4,
+.row1-5:hover  .menu-row5,
+.row1-6:hover  .menu-row6,
+.row1-7:hover  .menu-row7,
+.row1-8:hover  .menu-row8,
+.row1-9:hover  .menu-row9,
+.row1-10:hover .menu-row10,
+.row1-11:hover .menu-row11
+{
+    opacity: 1;
+    visibility: visible;
+}

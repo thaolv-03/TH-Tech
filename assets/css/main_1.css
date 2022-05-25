@@ -1,0 +1,224 @@
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .page {
+        height: 8200px !important;
+    }
+
+    /* ------------------ header ------------------ */
+
+    .header {
+        max-width: 100%;
+        padding: 0 3% !important;
+    }
+
+    .header__logo {
+        max-width: 100%;
+        justify-content: space-around !important;
+        margin-left: 0 !important;
+    }
+
+    #img1 {
+        max-width: 100%;
+    }
+
+    .header__search {
+        max-width: 30%;
+    }
+
+    .fa-solid+.fa-solid {
+        margin-left: 20px;
+    }
+
+    .header__func {
+        font-size: 27px;
+    }
+
+    /* ------------------ content ------------------ */
+    .content {
+        max-width: 100%;
+        padding: 0 3% !important;
+    }
+
+    .menu {
+        width: 95% !important;
+        height: 50px !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        background-color: rgba(255, 255, 255, 0.9) !important;
+    }
+
+    .menu-f {
+        width: 100% !important;
+        height: 50px !important;
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        flex-direction: row !important;
+        background-color: rgba(255, 255, 255, 0.9) !important;
+    }
+
+    .row1 {
+        justify-content: center !important;
+    }
+
+    .menu-row1,
+    .menu-row2,
+    .menu-row3,
+    .menu-row4,
+    .menu-row5,
+    .menu-row6,
+    .menu-row7,
+    .menu-row8,
+    .menu-row9,
+    .menu-row10,
+    .menu-row11 {
+        width: 100% !important;
+    }
+
+    .row1-1,
+    .row1-2,
+    .row1-3,
+    .row1-4,
+    .row1-5,
+    .row1-6,
+    .row1-7,
+    .row1-8,
+    .row1-9,
+    .row1-10,
+    .row1-11 {
+        margin-top: 5px !important;
+    }
+
+    .menu-row1,
+    .menu-row2,
+    .menu-row3,
+    .menu-row4,
+    .menu-row5,
+    .menu-row6,
+    .menu-row7,
+    .menu-row8,
+    .menu-row9,
+    .menu-row10,
+    .menu-row11 {
+        top: 45px !important;
+        left: 0 !important;
+        padding: 25px 20px !important;
+    }
+
+    .text-menu {
+        display: none;
+    }
+
+    /* ------------------ product ------------------ */
+    .content-product {
+        height: 800px !important;
+    }
+
+    .product__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product__img.active {
+        width: 70% !important;
+    }
+    
+    .product__selection--price {
+        margin-right: 100px;
+    }
+
+    .product__selection {
+        display: flex;
+        align-items: center;
+        margin-left: 0 !important;
+    }
+
+    .product__buy {
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        bottom: 10px;
+        left: 15px;
+        width: 97%;
+        z-index: 99;
+    }
+
+    .btn-buy,
+    .btn-add {
+        width: 50% !important;
+    }
+
+    .content-describe {
+        flex-direction: column-reverse;
+    }
+
+    .content-describe__detail {
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px !important;
+    }
+
+    .detail__title {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .describe__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .expand, .collapse {
+        display: none !important;
+    }
+
+    .content-related-product {
+        height: 290px !important;
+    }
+    .content-related__title {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .related-product {
+        width: 20%;
+    }
+
+    .footer {
+        height: 380px !important;
+    }
+
+    .footer-block {
+        width: 90% !important;
+        flex-wrap: wrap;
+    }
+
+    .footer-col1 {
+        width: 23%;
+    }
+
+    .footer-col2 {
+        width: 60%;
+    }
+
+    .footer-col3 {
+        width: 23%;
+    }
+
+    .footer-col4 {
+        width: 60%;
+    }
+
+    .btn-contact {
+        display: none !important;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+}
