@@ -290,9 +290,9 @@
     }
 
     .cart__none--icon img {
-        width: 120px;
+        width: 120px !important;
         margin: 0 auto;
-        margin-bottom: 5px;
+        margin-bottom: 5px !important;
     }
 
     /* --------------- slide --------------- */
