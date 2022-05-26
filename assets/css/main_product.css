@@ -113,6 +113,10 @@
         height: 800px !important;
     }
 
+    .product {
+        height: 790px !important;
+    }
+
     .product__row {
         flex-direction: column;
         align-items: center;
