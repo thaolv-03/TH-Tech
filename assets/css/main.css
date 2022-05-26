@@ -32,7 +32,6 @@
         font-size: 27px;
     }
 
-
     /* ----------------- slide -----------------  */
 
     .slide-block {
@@ -240,6 +239,7 @@
         display: none !important;
     }
 }
+
 /* Mobile */
 @media screen and (max-width: 767px) {
 
@@ -256,7 +256,6 @@
     .header {
         max-width: 100%;
         padding: 0 5% !important;
-        
     }
 
     .header__logo {
@@ -428,7 +427,7 @@
         flex-wrap: wrap;
     }
 
-    
+
     .btn-contact {
         display: none !important;
     }

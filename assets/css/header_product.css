@@ -20,6 +20,11 @@
 }
 
 #img1 {
+    display: none;
+    width: 250px;
+}
+
+#img2 {
     width: 55px;
 }
 
