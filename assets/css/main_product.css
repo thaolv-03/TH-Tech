@@ -292,6 +292,33 @@
         display: none !important;
     }
 
+    .cart__exist {
+        width: 350px !important;
+        padding: 10px 10px;
+    }
+
+    .cart__exist hr {
+        width: 330px !important;
+    }
+
+    .cart__exist table {
+        width: 320px !important;
+    }
+
+    .td-2 p {
+        width: 110px !important;
+    }
+
+    .cart-price {
+        width: 330px !important;
+    }
+    
+    .cart-btn-pay {
+        width: 330px !important;
+    }
+
+    
+
     /* ------------------ content ------------------ */
     .content {
         max-width: 100%;

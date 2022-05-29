@@ -1,4 +1,3 @@
-
 .header {
     width: 100%;
     height: 88px;
@@ -32,7 +31,7 @@
     width: 200px;
     font-size: 15px;
     padding: 7px 14px;
-    margin-left: 30px;  
+    margin-left: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +68,7 @@ input {
 }
 
 .header__search--btn {
-    background-image: linear-gradient(to bottom, #00c6ff,#0072ff);
+    background-image: linear-gradient(to bottom, #00c6ff, #0072ff);
     color: white;
     margin: 0 auto;
     margin-left: -15px;
@@ -80,12 +79,13 @@ input {
 }
 
 .header__func {
+    display: flex;
     flex-wrap: nowrap;
     align-self: center;
     font-size: 25px;
 }
 
-.fa-solid + .fa-solid {
+.fa-solid+.fa-solid {
     margin-left: 10px;
 }
 
@@ -102,9 +102,9 @@ input {
 .header__search--btn:hover {
     color: white;
     cursor: pointer;
-    background-image: linear-gradient(to right, #00c6ff,#0072ff);
+    background-image: linear-gradient(to right, #00c6ff, #0072ff);
     transition: .2s linear;
-} 
+}
 
 .fa-solid.fa-magnifying-glass:hover {
     color: #fff;
@@ -120,7 +120,7 @@ input {
     border: none;
     border-radius: 10px;
     position: absolute;
-    top: 40px;
+    top: 42px;
     right: 0;
     display: flex;
     flex-direction: column;
@@ -153,6 +153,9 @@ input {
 
 .fa-cart-shopping {
     position: relative;
+    top: 0;
+    margin-right: 10px;
+    right: 0;
 }
 
 .cart__none {
@@ -166,14 +169,34 @@ input {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     opacity: 0;
-    visibility: hidden;
+    /* visibility: hidden; */
     z-index: 10;
+}
+
+.cart__exist {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 420px;
+    height: 580px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    /* overflow: scroll; */
 }
 
 .cart__none--icon {
@@ -184,14 +207,115 @@ input {
     color: #333;
 }
 
-.fa-solid.fa-cart-shopping:hover .cart__none {
-    opacity: 1;
-    visibility: visible;
-    transition: 0.6s;
+.cart {
+    /* display: none; */
+    position: relative;
+    transition: all 1s ease;
+
 }
 
-.cart:hover {
-    display: none;
-    cursor: default;
+.cart__exist table {
+    width: 380px;
+    margin: 0 auto;
 }
 
+.table {
+    overflow: scroll;
+    height: 400px;
+}
+
+.cart__exist table td {
+    border: none;
+}
+
+.td-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;   
+}
+
+.td-2 p {
+    /* width: 70px; */
+    width: 140px;
+    display: block;
+  	display: -webkit-box;
+    -webkit-line-clamp: 2;  /* số dòng hiển thị */
+  	-webkit-box-orient: vertical;
+    overflow: hidden;
+  	text-overflow: ellipsis;
+    height: 15px*1.3*2;
+    font-size: 15px;
+    line-height: 1.3;
+    padding: 0 0px;
+    margin: auto 0;
+}
+
+.cart__exist table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart__exist img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.cart__exist button {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    border: 1px solid rgb(235, 76, 76);
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(235, 76, 76);
+    color: #fff;
+}
+
+.fa-xmark:hover {
+    color: #fff;
+}
+
+.cart__exist button:hover {
+    background-color: red;
+}
+
+.cart-price {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 70px;
+    font-size: 17px;
+}
+.cart-btn-pay {
+    width: 350px;
+    position: absolute;
+    bottom: 30px;
+}
+.cart-btn-pay button {
+    width: 100%;
+    background-color: #40c057;
+    border: 1px solid #40c057;
+
+}
+
+.cart-btn-pay button:hover {
+    background-color: rgb(9, 156, 9);
+}
+/* 
+.modal-popup {
+    position: fixed;
+    top: 50px;
+    margin-left: 35%;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-direction: row-reverse;
+} */

@@ -202,6 +202,7 @@
     flex-direction: column;
     align-items: center;
     height: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .content-describe__describe {
@@ -248,9 +249,10 @@
     font-size: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-table, th, td {
+.detail__content table, th, td {
     margin-top: 10px;
     border: 1px solid silver;
     border-collapse: collapse;
@@ -260,7 +262,7 @@ td {
     padding: 10px 10px;
 }
 
-table tr:nth-child(even) {
+.detail__content table tr:nth-child(even) {
     background-color: rgb(232, 234, 236);
 }
 
@@ -275,6 +277,7 @@ table tr:nth-child(even) {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 10px;
     padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .content-related__title {
