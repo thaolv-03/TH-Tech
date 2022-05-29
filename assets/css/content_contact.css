@@ -1,0 +1,136 @@
+.content-contact {
+    width: 100%;
+    position: absolute;
+    top: 88px;
+    height: 912px;
+    padding: 0 17%;
+    background-image: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact-title {
+    width: 100%;
+    height: 60px;
+    /* margin: 0 auto; */
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title h1 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 600;
+    font-size: 70px;
+    color: #1365c2;
+    line-height: 10px;
+}
+
+.contact-title p {
+    width: 42%;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact__information {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.contact__information--name,
+.contact__information--address,
+.contact__information--email,
+.contact__information--phone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.contact__information--name i,
+.contact__information--address i,
+.contact__information--email i,
+.contact__information--phone i {
+    font-size: 20px;
+    padding: 5px 0;
+    margin-right: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.email--detail a,
+.phone--detail a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.name,
+.address,
+.email,
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__message--email input {
+    height: 50px;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact__message--message input {
+    height: 200px;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact__message--btn button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1365c2;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid silver;
+}
+
+.contact__message--btn button:hover {
+    background-color: #1435c3;
+}

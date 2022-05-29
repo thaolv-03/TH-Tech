@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/iconTH.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!-- Fonts - icons -->
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ba36f54e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/base_contact.css">
+    <link rel="stylesheet" href="./assets/css/main_contact.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/content_contact.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/contact-back.css">
+
+
+    <title>TH-TECH</title>
+</head>
+
+<body>
+    <!------------ Start page ------------>
+    <div class="page">
+        <!------------------------------------------------ Start header ------------------------------------------------>
+        <header class="header">
+
+            <div class="header__logo">
+                <a href="./index.html"><img id="img1" src="./assets/img/logoTH1.png" alt=""></a>
+                <a href="./index.html"><img id="img2" src="./assets/img/iconTH.png" alt=""></a>
+            </div>
+            <div class="header__search">
+                <input type="text" placeholder="Nhập từ khóa cần tìm">
+                <div class="header__search--btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="header__func">
+                <i class="fa-solid fa-bell">
+                    <div class="nortification">
+                        <div class="nortification__none">
+                            <div class="nortification__none--icon">
+                                <img src="./assets/img/norti.png" alt="">
+                            </div>
+                            <div class="nortification__none--text">
+                                <p>Bạn chưa có thông báo mới</p>
+                            </div>
+                        </div>
+                        <div class="nortification__exist">
+
+                        </div>
+                    </div>
+                </i>
+
+                <i class="fa-solid fa-cart-shopping">
+                    <div class="cart">
+                        <div class="cart__none">
+                            <div class="cart__none--icon">
+                                <img src="./assets/img/cart_none.png" alt="">
+                            </div>
+                            <div class="cart__none--text">
+                                <p>Giỏ hàng chưa có sản phẩm nào</p>
+                            </div>
+                        </div>
+                        <div class="cart__exist">
+
+                        </div>
+                    </div>
+                </i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </header>
+        <!------------------------------------------------- End header ------------------------------------------------->
+
+        <!------------------------------------------------- Start slide ------------------------------------------------->
+        <!-- <div class="slide-block">
+            <div class="img-slide">
+                <img src="./assets/img/slide6.webp" alt="">
+            </div>
+            <div class="slides">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/slide1.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide2.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide3.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide4.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide5.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide6.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/slide7.webp" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <div class="button-prev">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <div class="button-next">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div> -->
+        <!------------------------------------------------- End slide ------------------------------------------------->
+
+
+        <!------------------------------------------------ Start content ------------------------------------------------>
+        <div class="content-contact">
+            <div class="contact-title">
+                <h1>Liên hệ</h1>
+                <p>TH-Tech luôn đem đến cho bạn những sản phẩm công nghệ chất lượng với giá thành tốt. Cùng với rất
+                    nhiều chương trình khuyến mãi và tin tức công nghệ hấp dẫn.
+                    Nếu bạn có bất cứ thắc mắc gì, hãy liên hệ ngay với chúng tôi
+                </p>
+            </div>
+            <!-- <hr> -->
+            <div class="contact">
+                <div class="contact__information">
+                    <div class="contact__information--name">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <div class="name">
+                            <div class="title">Thông tin</div>
+                            <div class="name--detail">Lê Văn Thảo - 21IT313</div>
+                            <div class="name--detail">Nguyễn Danh Huy - 21IT145</div>
+                        </div>
+                    </div>
+                    <div class="contact__information--address">
+                        <i class="fa-solid fa-map-location"></i>
+                        <div class="address">
+                            <div class="title">Địa chỉ</div>
+                            <div class="address--detail">470 Đường Trần Đại Nghĩa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng</div>
+                        </div>
+                    </div>
+                    <div class="contact__information--email">
+                        <i class="fa-solid fa-at"></i>
+                        <div class="email">
+                            <div class="title">Email</div>
+                            <div class="email--detail"><a
+                                    href="mailto:thaolv.21it@vku.udn.vn">thaolv.21it@vku.udn.vn</a></div>
+                        </div>
+                    </div>
+                    <div class="contact__information--phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="phone">
+                            <div class="title">Số điện thoại</div>
+                            <div class="phone--detail"><a href="tel:0947180074">0947.180.074</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__message">
+                    <div class="contact__message--email">
+                        <input type="text" placeholder="Your Email">
+                    </div>
+                    <div class="contact__message--message">
+                        <input type="text" placeholder="Your Message">
+                    </div>
+                    <div class="contact__message--btn">
+                        <button>Sent</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!------------------------------------------------- End content ------------------------------------------------->
+
+        <!------------------------------------------------ Start footer ------------------------------------------------>
+        <footer>
+            <div class="footer-block">
+                <div class="footer-col1">
+
+                    <div class="ft-title">Hỗ trợ khách hàng</div>
+                    <div class="ft-content">
+                        <ul>
+                            <li><a href="#">Trung tâm bảo hành</a></li>
+                            <li><a href="#">Thanh toán và giao thông</a></li>
+                            <li><a href="#">Dịch vụ sửa chữa và bảo trì</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col2">
+                    <div class="ft-title">Phương thức thanh toán</div>
+                    <div class="ft-content ft-content-pay">
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/qrcode.jpg" alt="">
+                                </div>
+                                <p>QR Code</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/tienmat.jpg" alt="">
+                                </div>
+                                <p>Tiền mặt</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/tragop.jpg" alt="">
+                                </div>
+                                <p>Trả góp</p>
+                            </a>
+                        </div>
+                        <div class="pay">
+                            <a href="#">
+                                <div class="pay-img">
+                                    <img src="./assets/img/internetBanking.jpg" alt="">
+                                </div>
+                                <p>Internet Banking</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-col3">
+                    <div class="ft-title">Thông tin TH-Tech</div>
+                    <div class="ft-content">
+                        <ul>
+                            <li><a href="#">Giới thiệu TH-Tech</a></li>
+                            <li><a href="#">Thông tin liên hệ</a></li>
+                            <li><a href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col4">
+                    <div class="ft-title"></div>
+                    <div class="ft-content">
+                        <h3>Liên hệ</h3>
+                        <a href="mailto:thaolv.21it@vku.udn.vn">
+                            <i style="font-size: 15px; margin-right: 3px;" class="fa-solid fa-at"></i>
+                            thaolv.21it@vku.udn.vn</a>
+                        <a href="tel:0947180074">
+                            <i style="font-size: 15px; margin-right: 3px;" class="fa-solid fa-phone"></i>
+                            0947 180 074
+                        </a>
+                        <h3 class="h3-address">Địa chỉ</h3>
+                        <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+ngh%E1%BB%87+Th%C3%B4ng+tin+v%C3%A0+Truy%E1%BB%81n+th%C3%B4ng+Vi%E1%BB%87t+-+H%C3%A0n/@15.9750106,108.2510487,17z/data=!3m1!4b1!4m5!3m4!1s0x3142108997dc971f:0x1295cb3d313469c9!8m2!3d15.9750106!4d108.2532374?hl=vi-VN"
+                            target="_blank">
+                            Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn <br>
+                            470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <!---------------------- End footer ---------------------->
+    </div>
+    <!----------------- End page ----------------->
+
+
+    <!-- Button contact -->
+    <button class="btn-contact" id="btn-instagram" title="Instagram"><a href="#"><img style="width: 43px;"
+                src="./assets/img/instagram.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-fb" title="Facebook"><a href="#"><img style="width: 42px;"
+                src="./assets/img/facebook.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-messenger" title="Messenger"><a href="#"><img style="width: 40px;"
+                src="./assets/img/messenger.png" alt=""></a></button>
+    <button class="btn-contact" id="btn-phone" title="Điện thoại liên hệ"><a href="#"><img style="width: 44px;"
+                src="./assets/img/whatapp.png" alt=""></a></button>
+
+    <!-- Button to homepage -->
+    <button id="myBtn" title="Back to homepage"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Javascript -->
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
